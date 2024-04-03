@@ -11,6 +11,7 @@
 body {
     background-color: #fef5f6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px auto;
 }
 
 h1 {
@@ -32,4 +33,40 @@ h2 {
 #promo-header {
     font-family: WorkSansBold;
     font-variant: small-caps;
+}
+
+#main-header {
+    background-color: #c87d52;
+}
+
+nav {
+    height: 80px;
+    width: 1000px;
+    margin: 0 auto 10px;
+}
+
+#main-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+#left-panel {
+    width: 30%;
+    float: left;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+#main {
+    float: right;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #ffd0c9;
+    padding: 30px;
 }
