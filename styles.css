@@ -1,14 +1,35 @@
+@font-face {
+    font-family: WorkSansBold;
+    src: url(fonts/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: WorkSansRegular;
+    src: url(fonts/WorkSans-Regular.ttf);
+}
+
 body {
     background-color: #fef5f6;
-    font-family: Verdana;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 2em;
     color: #c87d52;
+    font-family: WorkSansBold;
 }
 
-p {
-    text-align: left;
-    font-family: Verdana;
+h2,
+h3,
+h4 {
+    font-family: WorkSansRegular;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+#promo-header {
+    font-family: WorkSansBold;
+    font-variant: small-caps;
 }
