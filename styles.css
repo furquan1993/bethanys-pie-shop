@@ -1,3 +1,25 @@
+body {
+    background-color: #fef6f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Specific layout styles, for amongst others footer */
+* {
+    box-sizing: border-box
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+
 @font-face {
     font-family: WorkSansBold;
     src: url(fonts/WorkSans-Bold.ttf);
@@ -8,11 +30,6 @@
     src: url(fonts/WorkSans-Regular.ttf);
 }
 
-body {
-    background-color: #fef5f6;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0px auto;
-}
 
 h1 {
     font-size: 2em;
@@ -35,14 +52,16 @@ h2 {
     font-variant: small-caps;
 }
 
-#main-header {
-    background-color: #c87d52;
-}
+
 
 nav {
     height: 80px;
     width: 1000px;
     margin: 0 auto 10px;
+}
+
+#main-header {
+    background-color: #c87d52;
 }
 
 #main-container {
@@ -69,4 +88,8 @@ footer {
     width: 100%;
     background-color: #ffd0c9;
     padding: 30px;
+}
+
+.header-logo {
+    width: 175px;
 }
